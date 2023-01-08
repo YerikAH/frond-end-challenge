@@ -1,5 +1,5 @@
 # Front-end-challenge
-This is an application where you will see all my projects in a beautiful interface. There you will find the code and the url for you to visit the website.
+Soon dev
 ## Technologies used in the project 🛠
 
 - React
