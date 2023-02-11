@@ -11,11 +11,13 @@ export const SectionOneStyle = styled.section`
 `
 export const BoxGrid = styled.div`
     display: grid;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 5.625rem;
     grid-template-columns: repeat(auto-fill, 300px);
     width: 100%;
+    gap: 3rem;
     @media (min-width: 1000px){
+        justify-content: space-between;
         grid-template-columns: repeat(auto-fill, 360px);
     }
 `
@@ -48,6 +50,14 @@ export const DescriptionProject = styled.p`
 export const ButtonsBox = styled.div`
     padding: 0 1rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    @media (min-width: 1000px){
+        flex-direction: row;
+        justify-content: space-between;
+    }
 `
 export const ImageProject = styled.img`
     width:300px;
