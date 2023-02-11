@@ -23,20 +23,32 @@ export const ChildGrid = styled.div`
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
 
 `
 export const TitleProject = styled.h3`
+    margin-top: 1rem;
     font: normal normal 600 1.1rem/1.5rem var(--font-barlow);
     color: var(--black);
     text-overflow: ellipsis;
+    padding: 0 1rem;
 `
 export const DescriptionProject = styled.p`
     font: normal normal 400 0.9rem/1.5rem var(--font-barlow);
     color: var(--black);
     opacity: 0.7;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
 `
 
-export const ButtonsBox = styled.div``
+export const ButtonsBox = styled.div`
+    padding: 0 1rem;
+    display: flex;
+`
 export const ImageProject = styled.img`
     width:300px;
     @media (min-width: 1000px){
