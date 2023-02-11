@@ -4,5 +4,5 @@ export interface ContextProps {
     children: JSX.Element;
 }
 export interface ProjectProps {
-    data: Welcome[]
+    data: Welcome
 }

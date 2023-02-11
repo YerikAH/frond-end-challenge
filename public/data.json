@@ -11,7 +11,7 @@
     {
         "id":"2",
         "name":"Sunny agency landing page",
-        "image_paht":"./sunnyside.png",
+        "image_paht":"./images/sunnyside.png",
         "description": "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.",
         "link_preview":"https://yerikah.github.io/sunny-agency-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/sunny-agency-frontend-mentor",
@@ -20,7 +20,7 @@
     {
         "id":"3",
         "name":"E-commerce product page",
-        "image_paht":"./sneakers.png",
+        "image_paht":"./images/sneakers.png",
         "description": "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart fun",
         "link_preview":"https://yerikah.github.io/ecommerce-product-page-main-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/ecommerce-product-page-main-frontend-mentor",
@@ -29,7 +29,7 @@
     {
         "id":"4",
         "name":"URL Shortening API",
-        "image_paht":"./shortly.png",
+        "image_paht":"./images/shortly.png",
         "description": "Integrate with the shrtcode URL shortening API and play with browser storage in this landing page challenge.",
         "link_preview":"https://yerikah.github.io/url-shortening-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/url-shortening-frontend-mentor/tree/main",
@@ -38,7 +38,7 @@
     {
         "id":"5",
         "name":"Ping single column",
-        "image_paht":"./ping.png",
+        "image_paht":"./images/ping.png",
         "description": "This challenge is great for beginners and offers a chance to practice basic client-side form validation.",
         "link_preview":"https://yerikah.github.io/ping-single-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/ping-single-frontend-mentor",
@@ -47,7 +47,7 @@
     {
         "id":"6",
         "name":"Advice generator app",
-        "image_paht":"./advice.png",
+        "image_paht":"./images/advice.png",
         "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
         "link_preview":"https://yerikah.github.io/advice-generator-frontend-mentor/ts/public/",
         "link_code":"https://github.com/YerikAH/advice-generator-frontend-mentor",
@@ -56,7 +56,7 @@
     {
         "id":"7",
         "name":"Tip calculator app",
-        "image_paht":"./tip-calculator.png",
+        "image_paht":"./images/tip-calculator.png",
         "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
         "link_preview":"https://yerikah.github.io/simple-calc-tip/",
         "link_code":"https://github.com/YerikAH/simple-calc-tip",
@@ -65,7 +65,7 @@
     {
         "id":"8",
         "name":"Todo App",
-        "image_paht":"./todo.png",
+        "image_paht":"./images/todo.png",
         "description": "The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test.",
         "link_preview":"https://yerikah.github.io/to-do-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/to-do-frontend-mentor/tree/main",
@@ -74,7 +74,7 @@
     {
         "id":"9",
         "name":"Rock, Paper, Scissors game",
-        "image_paht":"./game.png",
+        "image_paht":"./images/game.png",
         "description": "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself.",
         "link_preview":"https://yerikah.github.io/rock-paper-scissors-game-frontendmentor/",
         "link_code":"https://github.com/YerikAH/rock-paper-scissors-game-frontendmentor",
@@ -83,7 +83,7 @@
     {
         "id":"10",
         "name":"Interactive rating component",
-        "image_paht":"./interactive.png",
+        "image_paht":"./images/interactive.png",
         "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!",
         "link_preview":"https://yerikah.github.io/interactive-rating-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/interactive-rating-frontend-mentor",
@@ -92,7 +92,7 @@
     {
         "id":"11",
         "name":"Order summary component",
-        "image_paht":"./modal.png",
+        "image_paht":"./images/modal.png",
         "description": "A perfect project for newbies who are starting to build confidence with layouts!",
         "link_preview":"https://yerikah.github.io/order-summary-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/order-summary-frontend-mentor",
@@ -101,7 +101,7 @@
     {
         "id":"12",
         "name":"Loopstudios landing page",
-        "image_paht":"./loopstudios.png",
+        "image_paht":"./images/loopstudios.png",
         "description": "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
         "link_preview":"https://yerikah.github.io/loopstudios-landing-page/",
         "link_code":"https://github.com/YerikAH/loopstudios-landing-page",
@@ -110,7 +110,7 @@
     {
         "id":"13",
         "name":"Intro component with sign-up form",
-        "image_paht":"./form.png",
+        "image_paht":"./images/form.png",
         "description": "Practice building out a sign-up form complete with client-side validation using JavaScript.",
         "link_preview":"https://yerikah.github.io/component-sign-up/",
         "link_code":"https://github.com/YerikAH/component-sign-up",
@@ -119,7 +119,7 @@
     {
         "id":"14",
         "name":"Blogr landing page",
-        "image_paht":"./blog.png",
+        "image_paht":"./images/blog.png",
         "description": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
         "link_preview":"https://yerikah.github.io/blogr-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/blogr-frontend-mentor",
@@ -128,7 +128,7 @@
     {
         "id":"15",
         "name":"Easybank landing page",
-        "image_paht":"./easy.png",
+        "image_paht":"./images/easy.png",
         "description": "This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step.",
         "link_preview":"https://yerikah.github.io/easybank-frontend-mentor/",
         "link_code":"https://github.com/YerikAH/easybank-frontend-mentor",
