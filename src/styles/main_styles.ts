@@ -1,3 +1,5 @@
 import styled from "styled-components";
 
-export const MainStyle = styled.main``
+export const MainStyle = styled.main`
+    width: 100%;
+`

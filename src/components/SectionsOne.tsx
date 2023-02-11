@@ -6,7 +6,9 @@ export default function SectionsOne() {
   const data = useContext(FetchContext)
   return (
     <FetchContext.Provider value={data}>
-      <SectionOneStyle></SectionOneStyle>
+      <SectionOneStyle>
+        
+      </SectionOneStyle>
       
     </FetchContext.Provider>
   )
