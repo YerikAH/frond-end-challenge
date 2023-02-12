@@ -1,4 +1,4 @@
-# My-portfolio
+# front end challenge
 
 ## Development 
 ### Project structure
@@ -8,14 +8,14 @@
 
 
 ### Technologies used in the project
+1. [React](https://es.reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
+1. [styled-components](https://styled-components.com/)
+1. [Vite](https://vitejs.dev/)
 
 ## Demo 
 
 ### Screenshots
 <img src="./screenshots/test-1.png" />
-<img src="./screenshots/test-2.png" />
-<img src="./screenshots/test-3.png" />
-
 ## Author
 
 - Harvey Yerik
