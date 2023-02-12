@@ -89,24 +89,22 @@ export const ButtonProject = styled.a`
   align-items: center;
   gap: 0.5rem;
   transition: 0.3s;
-  &:hover{
+  &:hover {
     background-color: ${(props) =>
-    props.className === "outline" ? "var(--white)" : "var(--dark-blue)"};
-  border: ${(props) =>
-    props.className === "outline" ? "1px solid var(--dark-blue)" : "none"};
-  color: ${(props) =>
-    props.className === "outline" ? "var(--dark-blue)" : "var(--white)"};
-
-    
+      props.className === "outline" ? "var(--white)" : "var(--dark-blue)"};
+    border: ${(props) =>
+      props.className === "outline" ? "1px solid var(--dark-blue)" : "none"};
+    color: ${(props) =>
+      props.className === "outline" ? "var(--dark-blue)" : "var(--white)"};
   }
-  &:hover path{
+  &:hover path {
     stroke: ${(props) =>
-    props.className=== "outline"?"var(--dark-blue)":"var(--white)" };
+      props.className === "outline" ? "var(--dark-blue)" : "var(--white)"};
   }
 `;
 export const ButtonSpecial = styled.a`
   display: flex;
-  margin:1rem;
+  margin: 1rem;
   padding: 0.5rem 1rem;
   background: var(--white-pale);
   color: var(--black);
@@ -116,9 +114,9 @@ export const ButtonSpecial = styled.a`
 `;
 export const ButtonIcon = styled.img``;
 export const PathColor = styled.path`
-    stroke: ${(props) =>
-    props.className=== "blue"?"var(--blue)":"var(--white)" };
-`
+  stroke: ${(props) =>
+    props.className === "blue" ? "var(--blue)" : "var(--white)"};
+`;
 export const BoxEnd = styled.div`
-    margin: auto 0 0 0;
-`
+  margin: auto 0 0 0;
+`;

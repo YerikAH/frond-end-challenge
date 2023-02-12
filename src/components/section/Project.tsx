@@ -12,8 +12,6 @@ import {
   TitleProject,
 } from "../../styles/section_one_style";
 import logoBlue from "../../assets/icon-logo.svg";
-import linkWhite from "../../assets/icon_link_white.svg";
-import linkBlue from "../../assets/icon_link_blue.svg";
 import LinkBlueComponent from "../icons/LinkBlueComponent";
 
 export default function Project({ data }: ProjectProps) {
@@ -27,11 +25,11 @@ export default function Project({ data }: ProjectProps) {
         <ButtonsBox>
           <ButtonProject href={data.link_preview}>
             VIEW PREVIEW
-            <LinkBlueComponent classProp="white"/>
+            <LinkBlueComponent classProp="white" />
           </ButtonProject>
           <ButtonProject href={data.link_code} className="outline">
             VIEW CODE
-            <LinkBlueComponent classProp="blue"/>
+            <LinkBlueComponent classProp="blue" />
           </ButtonProject>
         </ButtonsBox>
         <ButtonSpecial href={data.link_solution}>

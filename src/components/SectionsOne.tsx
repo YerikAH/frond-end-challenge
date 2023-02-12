@@ -11,7 +11,7 @@ export default function SectionsOne() {
       <SectionOneStyle>
         <BoxGrid>
           {data.map((item) => (
-            <Project data={item} key={item.id}/>
+            <Project data={item} key={item.id} />
           ))}
         </BoxGrid>
       </SectionOneStyle>

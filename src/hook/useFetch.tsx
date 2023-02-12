@@ -3,7 +3,9 @@ import { DATA_INITIAL_STATE } from "../constant/dataInitialState";
 import { Welcome } from "../interface/data";
 
 export function useFetch(url: string) {
-  const [dataJson, setDataJson] = useState<Welcome[] | null>(DATA_INITIAL_STATE);
+  const [dataJson, setDataJson] = useState<Welcome[] | null>(
+    DATA_INITIAL_STATE
+  );
   const [load, setLoad] = useState(false);
   useEffect(() => {
     const getData = async (url: string) => {

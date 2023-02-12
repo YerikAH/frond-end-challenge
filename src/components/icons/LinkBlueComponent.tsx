@@ -1,14 +1,10 @@
-import React from "react";
+// props
 import { SvgProps } from "../../interface/props";
+
+// styles
 import { PathColor } from "../../styles/section_one_style";
 
 export default function LinkBlueComponent({ classProp }: SvgProps) {
-    console.log(
-         classProp
-    )
-
-
-
   return (
     <svg
       width="20"
