@@ -64,6 +64,10 @@ export const ButtonsBox = styled.div`
     flex-direction: row;
     justify-content: start;
   }
+  @media (min-width: 1230px) {
+    flex-direction: row;
+    justify-content: start;
+  }
 `;
 export const ImageProject = styled.img`
   width: 300px;
