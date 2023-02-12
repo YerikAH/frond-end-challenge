@@ -4,8 +4,7 @@ import { createContext, useEffect, useState } from "react";
 import { useFetch } from "../hook/useFetch";
 
 /* interface and init state */
-import { CONTEXT_INITIAL_STATE, DATA_INITIAL_STATE } from "../constant/dataInitialState";
-import { Welcome } from "../interface/data";
+import { CONTEXT_INITIAL_STATE } from "../constant/dataInitialState";
 import { ContextInterface, ContextProps } from "../interface/props";
 
 const FetchContext = createContext<ContextInterface>(CONTEXT_INITIAL_STATE);
