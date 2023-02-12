@@ -20,10 +20,8 @@ const FetchProvider = ({ children }: ContextProps) => {
         data: dataJson,
         error: false
       })
-      console.log("No sucedio un error :)")
     }else{
       setDataContext(CONTEXT_INITIAL_STATE)
-      console.log("Sucedio un error :(")
     }
   }, [load]);
 
