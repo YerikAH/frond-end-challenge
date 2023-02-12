@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectProps } from "../../interface/props";
 import {
   BoxEnd,
@@ -23,16 +22,16 @@ export default function Project({ data }: ProjectProps) {
       <DescriptionProject>{data.description}</DescriptionProject>
       <BoxEnd>
         <ButtonsBox>
-          <ButtonProject href={data.link_preview}>
+          <ButtonProject href={data.link_preview} target="_blank">
             VIEW PREVIEW
             <LinkBlueComponent classProp="white" />
           </ButtonProject>
-          <ButtonProject href={data.link_code} className="outline">
+          <ButtonProject href={data.link_code} className="outline" target="_blank">
             VIEW CODE
             <LinkBlueComponent classProp="blue" />
           </ButtonProject>
         </ButtonsBox>
-        <ButtonSpecial href={data.link_solution}>
+        <ButtonSpecial href={data.link_solution} target="_blank">
           <ButtonIcon src={logoBlue} />
           View solution in Front End Mentor
         </ButtonSpecial>

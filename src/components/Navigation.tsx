@@ -16,7 +16,7 @@ export default function Navigation() {
       <NavStyle>
         <ImageLogo src={logo} />
         <HeadlinePrincipal>Challenge Completed</HeadlinePrincipal>
-        <TextDecoration href="https://www.frontendmentor.io/profile/YerikAH"> by Harvey Yerik</TextDecoration>
+        <TextDecoration href="https://www.frontendmentor.io/profile/YerikAH" target="_blank"> by Harvey Yerik</TextDecoration>
       </NavStyle>
     </HeaderStyle>
   );

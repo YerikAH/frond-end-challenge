@@ -23,19 +23,19 @@ export default function Footer() {
         </LogoText>
         <ListFooter>
           <PointFooter>
-            <LinkFooter href="">
+            <LinkFooter href="https://github.com/YerikAH" target="_blank">
               <GitHubIcon />
             </LinkFooter>
           </PointFooter>
 
           <PointFooter>
-            <LinkFooter href="">
+            <LinkFooter href="https://www.linkedin.com/in/harvey-yerik-vasquez-huaranga-802218228/" target="_blank">
               <LinkedinIcon />
             </LinkFooter>
           </PointFooter>
 
           <PointFooter>
-            <LinkFooter href="">
+            <LinkFooter href="https://www.frontendmentor.io/profile/YerikAH" target="_blank">
               <FrontEndMentorIcon />
             </LinkFooter>
           </PointFooter>
