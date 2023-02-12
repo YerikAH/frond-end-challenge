@@ -7,7 +7,7 @@ export default function GitHubIcon() {
       height="24"
       viewBox="0 0 24 24"
       stroke-width="2"
-      stroke="currentColor"
+      stroke="#FFF"
       fill="none"
       strokeLinecap="round"
       strokeLinejoin="round"

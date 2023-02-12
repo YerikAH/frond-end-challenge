@@ -11,16 +11,16 @@ export default function FrontEndMentorIcon() {
     >
       <path
         d="M8.18591 1C8.18591 4.63023 8.18591 10.2958 8.18591 10.2958M16.0028 3.95775L12.2 5.85915L16.0028 7.76056"
-        stroke="#3F54A3"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        stroke="#FFF"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M1.00281 7.12675C2.90422 11.5634 5.22816 13.2535 10.2986 13.8873"
-        stroke="#3F54A3"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        stroke="#FFF"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
     </svg>
   );
