@@ -25,6 +25,7 @@ export function useFetch(url: string) {
         setDataJson(data);
       } catch (err) {
         setDataJson(null);
+        console.log(err)
       } finally {
         setLoad(false);
       }
