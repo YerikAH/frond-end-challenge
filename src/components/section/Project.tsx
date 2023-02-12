@@ -12,8 +12,9 @@ import {
   TitleProject,
 } from "../../styles/section_one_style";
 import logoBlue from "../../assets/icon-logo.svg";
-import linkWhite from "../../assets/icon_link_white.svg"
-import linkBlue from "../../assets/icon_link_blue.svg"
+import linkWhite from "../../assets/icon_link_white.svg";
+import linkBlue from "../../assets/icon_link_blue.svg";
+import LinkBlueComponent from "../icons/LinkBlueComponent";
 
 export default function Project({ data }: ProjectProps) {
   console.log(data);
@@ -23,26 +24,20 @@ export default function Project({ data }: ProjectProps) {
       <TitleProject>{data.name}</TitleProject>
       <DescriptionProject>{data.description}</DescriptionProject>
       <BoxEnd>
-
-
-
-      <ButtonsBox>
-        <ButtonProject href={data.link_preview}>VIEW PREVIEW
-        <ButtonIcon src={linkWhite} />
-        </ButtonProject>
-        <ButtonProject href={data.link_code} className="outline">
-          VIEW CODE
-          <ButtonIcon src={linkBlue} />
-        </ButtonProject>
-      </ButtonsBox>
-      <ButtonSpecial href={data.link_solution}>
-        <ButtonIcon src={logoBlue} />
-        View solution in Front End Mentor
-      </ButtonSpecial>
-
-
-
-
+        <ButtonsBox>
+          <ButtonProject href={data.link_preview}>
+            VIEW PREVIEW
+            <ButtonIcon src={linkWhite} />
+          </ButtonProject>
+          <ButtonProject href={data.link_code} className="outline">
+            VIEW CODE
+            <LinkBlueComponent/>
+          </ButtonProject>
+        </ButtonsBox>
+        <ButtonSpecial href={data.link_solution}>
+          <ButtonIcon src={logoBlue} />
+          View solution in Front End Mentor
+        </ButtonSpecial>
       </BoxEnd>
     </ChildGrid>
   );

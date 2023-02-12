@@ -88,10 +88,25 @@ export const ButtonProject = styled.a`
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  transition: 0.3s;
+  &:hover{
+    background-color: ${(props) =>
+    props.className === "outline" ? "var(--white)" : "var(--dark-blue)"};
+  border: ${(props) =>
+    props.className === "outline" ? "1px solid var(--dark-blue)" : "none"};
+  color: ${(props) =>
+    props.className === "outline" ? "var(--blue-dark)" : "var(--white)"};
+
+    
+  }
+
+  &:hover path{
+    fill: var(--dark-blue);
+  }
 `;
 export const ButtonSpecial = styled.a`
   display: flex;
-  margin: 0.5rem 1rem;
+  margin:1rem;
   padding: 0.5rem 1rem;
   background: var(--white-pale);
   color: var(--black);
@@ -100,4 +115,6 @@ export const ButtonSpecial = styled.a`
   gap: 1rem;
 `;
 export const ButtonIcon = styled.img``;
-export const BoxEnd = styled.div``
+export const BoxEnd = styled.div`
+    margin: auto 0 0 0;
+`
