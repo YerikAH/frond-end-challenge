@@ -27,11 +27,11 @@ export default function Project({ data }: ProjectProps) {
         <ButtonsBox>
           <ButtonProject href={data.link_preview}>
             VIEW PREVIEW
-            <ButtonIcon src={linkWhite} />
+            <LinkBlueComponent classProp="white"/>
           </ButtonProject>
           <ButtonProject href={data.link_code} className="outline">
             VIEW CODE
-            <LinkBlueComponent/>
+            <LinkBlueComponent classProp="blue"/>
           </ButtonProject>
         </ButtonsBox>
         <ButtonSpecial href={data.link_solution}>

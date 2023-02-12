@@ -95,13 +95,13 @@ export const ButtonProject = styled.a`
   border: ${(props) =>
     props.className === "outline" ? "1px solid var(--dark-blue)" : "none"};
   color: ${(props) =>
-    props.className === "outline" ? "var(--blue-dark)" : "var(--white)"};
+    props.className === "outline" ? "var(--dark-blue)" : "var(--white)"};
 
     
   }
-
   &:hover path{
-    fill: var(--dark-blue);
+    stroke: ${(props) =>
+    props.className=== "outline"?"var(--dark-blue)":"var(--white)" };
   }
 `;
 export const ButtonSpecial = styled.a`
@@ -115,6 +115,10 @@ export const ButtonSpecial = styled.a`
   gap: 1rem;
 `;
 export const ButtonIcon = styled.img``;
+export const PathColor = styled.path`
+    stroke: ${(props) =>
+    props.className=== "blue"?"var(--blue)":"var(--white)" };
+`
 export const BoxEnd = styled.div`
     margin: auto 0 0 0;
 `
