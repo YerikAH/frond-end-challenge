@@ -115,6 +115,10 @@ export const ButtonSpecial = styled.a`
   font: normal normal 500 0.9rem/1.2rem var(--font-barlow);
   border-radius: 0.3rem;
   gap: 1rem;
+  transition: 0.3s;
+  &:hover{
+    opacity: 0.8;
+  }
 `;
 export const ButtonIcon = styled.img``;
 export const PathColor = styled.path`
