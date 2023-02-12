@@ -1,4 +1,4 @@
-# My-portfolio
+# front end challenge
 
 ## Development 
 ### Project structure
