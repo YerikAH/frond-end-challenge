@@ -45,5 +45,9 @@ export const LinkFooter = styled.a`
   border-radius: 15rem;
   width: 2.5rem;
   height: 2.5rem;
+  transition: 0.3s;
+  &:hover{
+    background-color: var(--dark-blue);
+  }
   
 `

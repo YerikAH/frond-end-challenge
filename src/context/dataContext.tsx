@@ -4,24 +4,31 @@ import { createContext, useEffect, useState } from "react";
 import { useFetch } from "../hook/useFetch";
 
 /* interface and init state */
-import { DATA_INITIAL_STATE } from "../constant/dataInitialState";
+import { CONTEXT_INITIAL_STATE, DATA_INITIAL_STATE } from "../constant/dataInitialState";
 import { Welcome } from "../interface/data";
-import { ContextProps } from "../interface/props";
+import { ContextInterface, ContextProps } from "../interface/props";
 
-const FetchContext = createContext<Welcome[]>(DATA_INITIAL_STATE);
+const FetchContext = createContext<ContextInterface>(CONTEXT_INITIAL_STATE);
 
 const FetchProvider = ({ children }: ContextProps) => {
   const envUrl: string = import.meta.env.VITE_KEY_DATA_URL;
-  const [data, setData] = useState<Welcome[]>(DATA_INITIAL_STATE);
   const { dataJson, load } = useFetch(envUrl);
-
+  const [dataContext, setDataContext] = useState<ContextInterface>(CONTEXT_INITIAL_STATE)
+  
   useEffect(() => {
     if (dataJson !== null) {
-      setData(dataJson);
+      setDataContext({
+        data: dataJson,
+        error: false
+      })
+      console.log("No sucedio un error :)")
+    }else{
+      setDataContext(CONTEXT_INITIAL_STATE)
+      console.log("Sucedio un error :(")
     }
   }, [load]);
 
-  return <FetchContext.Provider value={data}>{children}</FetchContext.Provider>;
+  return <FetchContext.Provider value={dataContext}>{children}</FetchContext.Provider>;
 };
 
 export default FetchContext;

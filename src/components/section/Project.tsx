@@ -1,4 +1,7 @@
+// props
 import { ProjectProps } from "../../interface/props";
+
+// styles
 import {
   BoxEnd,
   ButtonIcon,
@@ -10,7 +13,11 @@ import {
   ImageProject,
   TitleProject,
 } from "../../styles/section_one_style";
+
+// images
 import logoBlue from "../../assets/icon-logo.svg";
+
+//components
 import LinkBlueComponent from "../icons/LinkBlueComponent";
 
 export default function Project({ data }: ProjectProps) {
@@ -26,7 +33,11 @@ export default function Project({ data }: ProjectProps) {
             VIEW PREVIEW
             <LinkBlueComponent classProp="white" />
           </ButtonProject>
-          <ButtonProject href={data.link_code} className="outline" target="_blank">
+          <ButtonProject
+            href={data.link_code}
+            className="outline"
+            target="_blank"
+          >
             VIEW CODE
             <LinkBlueComponent classProp="blue" />
           </ButtonProject>

@@ -1,4 +1,5 @@
 import { Welcome } from "../interface/data";
+import { ContextInterface } from "../interface/props";
 
 export const DATA_INITIAL_STATE : Welcome[]= [
     {
@@ -11,3 +12,8 @@ export const DATA_INITIAL_STATE : Welcome[]= [
         "link_solution":""
     },
 ]
+
+export const CONTEXT_INITIAL_STATE: ContextInterface = {
+    data: null,
+    error: true,
+}
