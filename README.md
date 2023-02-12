@@ -1,4 +1,4 @@
-# front end challenge
+# Front end Mentor, Challenge completed
 
 ## Development 
 ### Project structure
@@ -16,6 +16,7 @@
 
 ### Screenshots
 <img src="./screenshots/test-1.png" />
+
 ## Author
 
 - Harvey Yerik
