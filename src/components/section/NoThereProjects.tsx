@@ -1,5 +1,9 @@
+import { BoxItems, HeadlinePrincipal } from "../../styles/nothere_items";
+
 export default function NoThereProjects() {
   return (
-    <div>NoThereProjects</div>
+    <BoxItems>
+      <HeadlinePrincipal>🛰 No project found</HeadlinePrincipal>
+    </BoxItems>
   )
 }
