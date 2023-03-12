@@ -3,9 +3,16 @@
 ## Development 
 ### Project structure
 
-
-### My experience developing
-
+Important Folders:
+- **public:** This folder contains almost all the files used by the application, and is consumed by useFetch.tsx.
+- **src:**
+  - **assets**: Files also used in the application.
+  - **components**: All the components are here.
+  - **context:** Contexts are here, including useFetch which provides data to the other components that need it.
+  - **helpers:** Most of the logic is here.
+  - **hook:** The only custom hook, useFetch.tsx.
+  - **interface:** Interfaces to be more explicit.
+  - **styles:** All the styles used, mostly or almost all of them are .ts files.
 
 ### Technologies used in the project
 1. [React](https://es.reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
