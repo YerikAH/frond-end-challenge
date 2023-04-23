@@ -10,7 +10,8 @@ export interface SvgProps {
   classProp: string;
 }
 
-export interface ContextInterface{
-  data: Welcome[] | null,
-  error: boolean
+export interface ContextInterface {
+  data: Welcome[] | null;
+  error: boolean;
+  load: boolean;
 }

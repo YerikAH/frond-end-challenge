@@ -5,7 +5,7 @@
   --font-barlow: "Barlow", sans-serif;
   --black: #333;
   --white: #ffffff;
-  --white-pale : #f0f4f4;
+  --white-pale: #f0f4f4;
   --blue: #3e54a3;
   --dark-blue: #29376b;
 }
@@ -32,4 +32,11 @@ input[type="button"] {
   cursor: pointer;
   outline: none;
   border: none;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

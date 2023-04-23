@@ -12,20 +12,27 @@ const FetchContext = createContext<ContextInterface>(CONTEXT_INITIAL_STATE);
 const FetchProvider = ({ children }: ContextProps) => {
   const envUrl: string = import.meta.env.VITE_KEY_DATA_URL;
   const { dataJson, load } = useFetch(envUrl);
-  const [dataContext, setDataContext] = useState<ContextInterface>(CONTEXT_INITIAL_STATE)
-  
+  const [dataContext, setDataContext] = useState<ContextInterface>(
+    CONTEXT_INITIAL_STATE
+  );
+
   useEffect(() => {
     if (dataJson !== null) {
       setDataContext({
         data: dataJson,
-        error: false
-      })
-    }else{
-      setDataContext(CONTEXT_INITIAL_STATE)
+        error: false,
+        load: load,
+      });
+    } else {
+      setDataContext(CONTEXT_INITIAL_STATE);
     }
   }, [load]);
 
-  return <FetchContext.Provider value={dataContext}>{children}</FetchContext.Provider>;
+  return (
+    <FetchContext.Provider value={dataContext}>
+      {children}
+    </FetchContext.Provider>
+  );
 };
 
 export default FetchContext;
